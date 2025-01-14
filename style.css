@@ -76,3 +76,8 @@ img.resume {
     justify-content: center;
     align-content: center;
 }
+
+img.linkedin {
+    width: 100px;
+    height:auto;
+}
