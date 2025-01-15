@@ -116,7 +116,7 @@ navbar goes inside the navbar container. etc.*/
 }
 .certificate-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     margin: 3px;
