@@ -77,10 +77,12 @@ img.linkedin {
 .header {
     display: flex;
     width: min-content;
+    align-items: center;
 }
 .nav {
     display: flex;
     width: min-content;
+    align-items: center;
 }
 .button-container {
   display: flex;
