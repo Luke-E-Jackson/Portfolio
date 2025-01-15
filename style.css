@@ -33,7 +33,7 @@ a.nav {
     align-items: center;
     justify-self: center;
     justify-content: space-between;
-    width: 65%;
+    width: 70%;
     border: 2px solid black;
 }
 
@@ -43,7 +43,7 @@ a.nav {
     flex-wrap: wrap;
     align-items: center;
     justify-self: center;
-    width: 65%;
+    width: 70%;
     justify-content: space-evenly;
     border-right: 2px solid black;
     border-left: 2px solid black;
