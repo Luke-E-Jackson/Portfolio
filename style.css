@@ -36,10 +36,11 @@ This section defines
 container classes for divs. The
 Wrapper is for the entire page.
 The head-container is for the 
-header. The navbar-container is for 
-the links bellow the header. And 
-the container is for the content bellow
-that.*/
+header. Foot-container in for
+the footer. The navbar-
+container is for the links bellow 
+the header. And the container is 
+for the content bellow that.*/
 .header-container {
     display: flex;
     flex-direction: row;
@@ -49,6 +50,17 @@ that.*/
     justify-content: space-between;
     width: 100%;
     border: 2px solid black;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    align-self: bottom;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
 }
 
 .navbar-container {
@@ -109,6 +121,18 @@ navbar goes inside the navbar container. etc.*/
     font-size: 175%;
 }
 
+.footer-text {
+    display: flex;
+    align-items: center;
+    font-size: 90%;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    font-size: 90%;
+}
 .navbar {
     margin: 3px;
     text-align: center;
