@@ -60,6 +60,7 @@ a.nav {
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
+
 .logo-container {
     display: flex;
     flex-direction: row;
@@ -68,6 +69,16 @@ a.nav {
     justify-self: center;
     justify-content: flex-start;
 }
+
+.link-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-self: center;
+        justify-content: flex-end;
+}
+
 .logo {
     display: flex;
     align-items: center;
