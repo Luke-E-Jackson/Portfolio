@@ -37,14 +37,14 @@ a.nav {
 .header {
     margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 20%;
+    font-size: 20%;
 }
 .navbar {
     margin: 10px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    line-height: 20%;
+    font-size: 20%;
 }
 
 img.animated {
