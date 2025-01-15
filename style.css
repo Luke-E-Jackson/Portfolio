@@ -40,12 +40,6 @@ header. The navbar-container is for
 the links bellow the header. And 
 the container is for the content bellow
 that.*/
-
-.wrapper {
-    width: 960px;
-    margin: 0 auto;
-    background-color: #37323e;
-}
 .header-container {
     display: flex;
     flex-direction: row;
