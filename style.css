@@ -68,7 +68,6 @@ a.nav {
     justify-self: center;
     justify-content: flex-start;
     width: 85%;
-    border: 2px solid black;
 }
 .logo {
     display: flex;
