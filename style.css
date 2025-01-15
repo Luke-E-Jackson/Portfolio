@@ -123,13 +123,13 @@ navbar goes inside the navbar container. etc.*/
     display: flex;
     align-items: center;
     margin: 10px;
-    font-size: 90%;
+    font-size: 50%;
 }
 
 .footer-links {
     display: flex;
     align-items: center;
-    font-size: 90%;
+    font-size: 50%;
 }
 
 .links {
