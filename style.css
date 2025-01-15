@@ -21,6 +21,10 @@ p {
     color: #deb841;
 }
 
+a.nav {
+    color: #deb841;
+    text-decoration: none;
+}
 .header-container {
     display: flex;
     flex-direction: row;
