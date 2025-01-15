@@ -2,9 +2,9 @@ html {
     height: 100%;
     background-color: #37323e;
     font-family: monospace;
-        text-align: center;
 }
-
+/*The html height and body min-height relate to make the height scale properly on all devices.
+ */
 body {
     min-height: 100%;
 }
