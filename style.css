@@ -56,7 +56,7 @@ for the content bellow that.*/
     display: flex;
     flex-direction: row;
     align-self: bottom;
-    justify-content: ;
+    justify-content: space-between;
     width: 100%;
     border: 1px solid black;
 }
