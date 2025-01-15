@@ -32,6 +32,7 @@ a.nav {
     flex-wrap: wrap;
     align-items: center;
     justify-self: center;
+    justify-content: space-between;
     width: 65%;
     border: 2px solid black;
 }
@@ -66,7 +67,6 @@ a.nav {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    margin-left: auto;
 }
 
 .link-container {
