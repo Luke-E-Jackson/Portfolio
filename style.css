@@ -46,7 +46,6 @@ p {
 img.animated {
     width: 120px;
     height: 120px;
-    border-right: 1px solid black;
 }
 
 img.certification {
