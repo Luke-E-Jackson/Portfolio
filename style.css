@@ -124,14 +124,14 @@ navbar goes inside the navbar container. etc.*/
 .footer-text {
     display: flex;
     align-items: center;
-    margin: 5px;
+    margin: 10px;
     font-size: 90%;
 }
 
 .footer-links {
     display: flex;
     align-items: center;
-    margin: 4px;
+    margin: 10px;
     padding: 4px;
     font-size: 90%;
 }
