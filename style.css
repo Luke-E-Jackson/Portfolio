@@ -135,6 +135,12 @@ navbar goes inside the navbar container. etc.*/
     padding: 4px;
     font-size: 90%;
 }
+
+.links {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
 .navbar {
     margin: 3px;
     text-align: center;
