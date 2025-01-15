@@ -131,7 +131,7 @@ navbar goes inside the navbar container. etc.*/
 .footer-links {
     display: flex;
     align-items: center;
-    margin: 10px;
+    margin-left: 20px;
     font-size: 90%;
 }
 
