@@ -24,13 +24,19 @@ p {
 .header-container {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    flex-wrap: nowrap;
     justify-content: space-between;
     width: 100%;
-    height: 6rem;
     border: 2px solid black;
 }
 
+.navbar {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
 img.animated {
     width: 120px;
     height: 120px;
