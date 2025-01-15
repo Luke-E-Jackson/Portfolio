@@ -67,11 +67,18 @@ img.linkedin {
 .header-container {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    height: 6rem;
 }
 
 .logo {
     display: flex;
+    padding: 1.5rem;
     width: min-content;
+    height: min-content;
+    border-right: 1px solid black;
 }
 
 .header {
