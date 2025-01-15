@@ -89,11 +89,6 @@ a.nav {
     font-size: 175%;
 }
 
-.space-header {
-    display: flex;
-    align-items: center;
-}
-
 .navbar {
     margin: 3px;
     text-align: center;
