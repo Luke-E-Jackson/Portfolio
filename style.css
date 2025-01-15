@@ -1,14 +1,20 @@
+/* Section 1:
+The html height and body 
+min-height relate to make 
+the height scale properly 
+on all devices.*/
 html {
     height: 100%;
     background-color: #37323e;
     font-family: monospace;
 }
-/*The html height and body min-height relate to make the height scale properly on all devices.
- */
+
 body {
     min-height: 100%;
 }
-
+/*Section 2:
+This section defines color
+and style of common elements*/
 h1 {
     color: #deb841;
 }
@@ -25,7 +31,14 @@ a.nav {
     color: #deb841;
     text-decoration: none;
 }
-
+/*Section 3:
+This section defines
+container classes for divs
+The head-container is for the 
+header. The navbar-container is for 
+the links bellow the header. And 
+the container is for the content bellow
+that.*/
 .header-container {
     display: flex;
     flex-direction: row;
@@ -60,22 +73,14 @@ a.nav {
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
-
-.certificate-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 3px;
-}
-
-.text-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 3px;
-}
+/*Section 4:
+This section defines containers
+within containers. The logo-container
+is for the header elements. The link-container
+is for the github and linkedin elements.
+The logo element is within the logo container.
+The header element is within the link-container.
+navbar goes inside the navbar container. etc.*/
 .logo-container {
     display: flex;
     flex-direction: row;
@@ -108,7 +113,25 @@ a.nav {
     text-align: center;
     font-size: 100%;
 }
+.certificate-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3px;
+}
 
+.text-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3px;
+}
+/*Section 5:
+This is where the img and
+other variables are configured
+or initialized.*/
 img.animated {
     width: 85px;
     height: 85px;
