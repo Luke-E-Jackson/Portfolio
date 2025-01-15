@@ -27,7 +27,7 @@ a.nav {
 }
 
 .header-container {
-    display: flex;
+    display: grid;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
