@@ -82,7 +82,7 @@ img.linkedin {
 .nav {
     display: flex;
     width: min-content;
-    align-items: center;
+    justify-content: center;
 }
 .button-container {
   display: flex;
