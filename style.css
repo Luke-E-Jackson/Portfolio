@@ -25,13 +25,13 @@ a.nav {
     color: #deb841;
     text-decoration: none;
 }
+
 .header-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-self: center;
-    justify-content: flex-start;
     width: 85%;
     border: 2px solid black;
 }
@@ -60,7 +60,16 @@ a.nav {
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
-
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: center;
+    justify-content: flex-start;
+    width: 85%;
+    border: 2px solid black;
+}
 .logo {
     display: flex;
     align-items: center;
