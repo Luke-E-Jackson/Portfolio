@@ -66,6 +66,7 @@ img.linkedin {
 }
 
 .header-container {
+    display: flex;
     border: 5px dashed red;
 }
 
