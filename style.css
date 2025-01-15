@@ -67,7 +67,6 @@ a.nav {
     align-items: center;
     justify-self: center;
     justify-content: flex-start;
-    width: 70%;
 }
 .logo {
     display: flex;
