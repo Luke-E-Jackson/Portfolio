@@ -31,7 +31,7 @@ a.nav {
     flex-wrap: wrap;
     align-items: center;
     justify-self: center;
-    width: 80%;
+    width: auto;
     border: 2px solid black;
 }
 
