@@ -35,11 +35,22 @@ a.nav {
     border: 2px solid black;
 }
 
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: center;
+    width: auto;
+    border: 2px solid black;
+}
+
 .header {
     margin: 10px;
     text-align: center;
     font-size: 125%;
 }
+
 .navbar {
     margin: 10px;
     text-align: center;
