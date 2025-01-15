@@ -62,7 +62,6 @@ a.nav {
 
 .header {
     display: flex;
-    justify-items: center;
     align-items: center;
     margin: 10px;
     font-size: 175%;
