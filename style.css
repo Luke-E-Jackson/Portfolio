@@ -66,18 +66,21 @@ img.linkedin {
 
 .header-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .logo {
     display: flex;
+    width: min-content;
 }
 
 .header {
     display: flex;
+    width: min-content;
 }
 .nav {
     display: flex;
+    width: min-content;
 }
 .button-container {
   display: flex;
