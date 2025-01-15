@@ -76,8 +76,6 @@ img.linkedin {
 
 .container {
     border: 5px dashed red;
-    min-width: 100%;
-    min-height: 100%;
 }
 
 .header-container {
