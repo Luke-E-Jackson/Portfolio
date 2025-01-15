@@ -77,12 +77,14 @@ img.linkedin {
 .button-container {
   display: flex;
   flex-direction: column;
+border: 5px dashed yellow;
 }
 
 .content-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 5px dashed yellow;
 }
 
 .container {
@@ -90,4 +92,5 @@ img.linkedin {
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    border: 5px dashed orange;
 }
