@@ -5,7 +5,7 @@ the height scale properly
 on all devices.*/
 html {
     height: 100%;
-    background-color: #37323e;
+    background-color:#37323e;
     font-family: monospace;
 }
 
@@ -33,12 +33,19 @@ a.nav {
 }
 /*Section 3:
 This section defines
-container classes for divs
+container classes for divs. The
+Wrapper is for the entire page.
 The head-container is for the 
 header. The navbar-container is for 
 the links bellow the header. And 
 the container is for the content bellow
 that.*/
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #37323e;
+}
 .header-container {
     display: flex;
     flex-direction: row;
