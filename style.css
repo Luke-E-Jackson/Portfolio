@@ -62,6 +62,21 @@ a.nav {
     border-bottom: 2px solid black;
 }
 
+.certificate-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3px;
+}
 .logo-container {
     display: flex;
     flex-direction: row;
