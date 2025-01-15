@@ -64,6 +64,7 @@ a.nav {
     margin: 10px;
     text-align: center;
     font-size: 175%;
+    border-right: 1px solid black;
 }
 
 .navbar {
