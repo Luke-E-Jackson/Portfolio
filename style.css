@@ -77,7 +77,7 @@ img.linkedin {
 .header {
     display: flex;
     width: min-content;
-    align-items: center;
+    justify-content: center;
 }
 .nav {
     display: flex;
