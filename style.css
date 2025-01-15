@@ -55,8 +55,7 @@ for the content bellow that.*/
 .footer-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-self: center;
+
     align-self: bottom;
     justify-content: space-between;
     width: 100%;
