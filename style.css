@@ -81,6 +81,11 @@ img.linkedin {
 .header-container {
     border: 5px dashed red;
 }
+
+.logo {
+    display: flex;
+    align-content: flex-start;
+}
 .button-container {
   display: flex;
   flex-direction: column;
