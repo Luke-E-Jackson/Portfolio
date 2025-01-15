@@ -38,6 +38,7 @@ a.nav {
     margin: 10px;
     text-align: center;
     font-size: 125%;
+    overflow-wrap: break-word;
 }
 .navbar {
     margin: 10px;
