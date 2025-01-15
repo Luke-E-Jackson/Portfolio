@@ -30,7 +30,6 @@ a.nav {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-self: center;
     width: 85%;
     border: 2px solid black;
 }
@@ -62,7 +61,6 @@ a.nav {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     margin: 10px;
     font-size: 175%;
