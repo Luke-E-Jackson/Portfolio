@@ -75,7 +75,6 @@ img.linkedin {
 
 .logo {
     display: flex;
-    padding: 1.5rem;
     width: min-content;
     height: min-content;
     border-right: 1px solid black;
