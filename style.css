@@ -5,7 +5,9 @@ html {
         text-align: center;
 }
 
-
+body {
+    min-height: 100%;
+}
 
 p {
     color: #deb841;
