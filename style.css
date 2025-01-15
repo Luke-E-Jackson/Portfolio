@@ -9,10 +9,6 @@ body {
     min-height: 100%;
 }
 
-p {
-    color: #deb841;
-}
-
 h1 {
     color: #deb841;
 }
@@ -21,17 +17,18 @@ h2 {
     color: #deb841;
 }
 
-.button {
-  background-color: #37323e;
-  border: black 3px groove;
-  color: #deb841;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+p {
+    color: #deb841;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    height: 6rem;
+    border: 2px solid black;
 }
 
 img.animated {
@@ -58,45 +55,4 @@ img.resume {
 img.linkedin {
     width: 50px;
     height: 50px;
-}
-
-.container {
-}
-
-.header-container {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-between;
-    width: 100%;
-    height: 6rem;
-    border: 2px solid black;
-}
-
-.logo {
-    display: flex;
-    width: min-content;
-    height: min-content;
-    border-right: 1px solid black;
-}
-
-.header {
-    display: flex;
-    width: min-content;
-    justify-content: center;
-}
-.nav {
-    display: flex;
-    width: min-content;
-    justify-content: center;
-}
-.button-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.content-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
