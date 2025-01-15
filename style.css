@@ -29,7 +29,6 @@ a.nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     width: 100%;
     border: 2px solid black;
 }
@@ -38,6 +37,7 @@ a.nav {
     margin: 10px;
     text-align: center;
     font-size: 125%;
+    padding-right: 200px;
 }
 .navbar {
     margin: 10px;
