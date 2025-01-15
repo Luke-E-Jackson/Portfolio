@@ -74,7 +74,7 @@ a.nav {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-self: flex-end;
+    justify-items: flex-end;
 }
 
 .logo {
