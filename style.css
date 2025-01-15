@@ -32,7 +32,7 @@ a.nav {
     flex-wrap: wrap;
     align-items: center;
     justify-self: center;
-    width: 80%;
+    width: 75%;
     border: 2px solid black;
 }
 
@@ -42,7 +42,7 @@ a.nav {
     flex-wrap: wrap;
     align-items: center;
     justify-self: center;
-    width: 85%;
+    width: 75%;
     justify-content: space-evenly;
     border-right: 2px solid black;
     border-left: 2px solid black;
