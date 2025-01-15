@@ -48,6 +48,18 @@ a.nav {
     border-bottom: 2px solid black;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: center;
+    width: 75%;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
 .header {
     margin: 10px;
     text-align: center;
@@ -60,10 +72,6 @@ a.nav {
     font-size: 125%;
 }
 
-.container {
-    width: 100%;
-    height: 100%;
-}
 img.animated {
     width: 85px;
     height: 85px;
