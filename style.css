@@ -22,19 +22,6 @@ h2 {
     color: #deb841;
 }
 
-a.header {
-    font-size: 30px;
-    color: #deb841;
-    text-decoration: none;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border: black 3px ridge;
-    
-}
-
 .button {
   background-color: #37323e;
   border: black 3px groove;
@@ -84,7 +71,13 @@ img.linkedin {
 
 .logo {
     display: flex;
-    align-content: flex-start;
+}
+
+.header {
+    display: flex;
+}
+.nav {
+    display: flex;
 }
 .button-container {
   display: flex;
