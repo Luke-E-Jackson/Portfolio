@@ -12,7 +12,7 @@ html {
 body {
     background-color: #37323e;
     color: #deb841;
-    font-family:Courier, monospace;
+    font-family: monospace, 'courier new', courier;
     min-height: 100%;
     font-size: 1.25rem;
 }
