@@ -5,32 +5,23 @@ the height scale properly
 on all devices.*/
 html {
     height: 100%;
-    background-color:#37323e;
-    font-family: monospace;
 }
 
 body {
+    background-color: #37323e;
+    color: #deb841;
+    font-family: monospace;
     min-height: 100%;
 }
 /*Section 2:
 This section defines color
 and style of common elements*/
-h1 {
-    color: #deb841;
-}
-
-h2 {
-    color: #deb841;
-}
-
-p {
-    color: #deb841;
-}
 
 a.nav {
     color: #deb841;
     text-decoration: none;
 }
+
 /*Section 3:
 This section defines
 container classes for divs. The
