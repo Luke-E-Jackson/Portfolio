@@ -107,7 +107,6 @@ navbar goes inside the navbar container. etc.*/
 .logo {
     display: flex;
     align-items: center;
-    font-size: 250%;
 }
 
 .header {
