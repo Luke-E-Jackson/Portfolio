@@ -5,6 +5,10 @@ the height scale properly
 on all devices. Also default font-size
 is 16px which is used to calculate rem
 root em.*/
+
+* {
+    box-sizing: border-box;
+}
 html {
     block-size: 100%;   /*block-size is the logical form of height*/
 }
