@@ -197,3 +197,11 @@ img.icon-link {
     inline-size: 25px;
     block-size: 25px;
 }
+
+#git {
+    background-image: url(/Portfolio/images/Octicons-mark-github-orange.webp);
+}
+
+#din {
+    background-image: url(/Portfolio/images/LinkedIn_logo_initials_orange.webp)
+}
