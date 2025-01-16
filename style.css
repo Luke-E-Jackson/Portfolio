@@ -43,6 +43,10 @@ a:focus-visible {
     color: #DE9E36;
 }
 
+a:active {
+    color: black;
+}
+
 /*Section 3:
 This section defines
 container classes for divs. The
