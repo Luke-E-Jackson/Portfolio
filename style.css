@@ -9,12 +9,16 @@ html {
     height: 100%;
 }
 
+
 body {
     background-color: #37323e;
     color: #deb841;
     font-family: monospace, 'courier new', courier;
     min-height: 100%;
     font-size: 1rem;
+    line-height: 1.6; /*line-height is like the space between words vertically
+                        I'm using the 1.6 ratio to determine this instead of
+                        a fixed number.*/
 }
 /*Section 2:
 This section defines color
