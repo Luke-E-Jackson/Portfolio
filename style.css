@@ -20,6 +20,10 @@ body {
 This section defines color
 and style of common elements*/
 
+h1 {
+    margin: 0;
+    padding: 0;
+}
 a.nav {
     color: inherit;
     text-decoration: none;
