@@ -15,10 +15,11 @@ body {
     color: #deb841;
     font-family: monospace, 'courier new', courier;
     min-block-size: 100%;
-    font-size: 1rem;
-    line-height: 1.6; /*line-height is like the space between words vertically
+    font-size: 1rem;  
+                        /*line-height is like the space between words vertically
                         I'm using the 1.6 ratio to determine this instead of
-                        a fixed number.*/
+                        a fixed number. I removed it because it messed up
+                        my links/icons.*/
 }
 /*Section 2:
 This section defines color
@@ -185,7 +186,6 @@ img.resume {
 }
 
 img.icon-link {
-    line-height: 1;
     inline-size: 25px;
     block-size: 25px;
 }
