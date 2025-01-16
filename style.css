@@ -193,7 +193,12 @@ img.resume {
     block-size: 260px;
 }
 
-img.icon-link {
+img.icon-git {
+    inline-size: 25px;
+    block-size: 25px;
+}
+
+img.icon-din {
     inline-size: 25px;
     block-size: 25px;
 }
