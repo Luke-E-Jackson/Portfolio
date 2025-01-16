@@ -54,7 +54,7 @@ for the content bellow that.*/
     border: 2px solid black;
 }
 
-.footer-container {
+footer {
     display: flex;
     flex-direction: row;
     align-self: bottom;
