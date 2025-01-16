@@ -6,7 +6,7 @@ on all devices. Also default font-size
 is 16px which is used to calculate rem
 root em.*/
 html {
-    height: 100%;
+    block-size: 100%;   /*block-size is the logical form of height*/
 }
 
 
@@ -14,7 +14,7 @@ body {
     background-color: #37323e;
     color: #deb841;
     font-family: monospace, 'courier new', courier;
-    min-height: 100%;
+    min-block-size: 100%;
     font-size: 1rem;
     line-height: 1.6; /*line-height is like the space between words vertically
                         I'm using the 1.6 ratio to determine this instead of
@@ -50,7 +50,7 @@ for the content bellow that.*/
     align-items: center;
     justify-self: center;
     justify-content: space-between;
-    width: 100%;
+    inline-size: 100%;                /*inline-size is the logical form of width*/
     border: 2px solid black;
 }
 
@@ -59,7 +59,7 @@ for the content bellow that.*/
     flex-direction: row;
     align-self: bottom;
     justify-content: space-between;
-    width: 100%;
+    inline-size: 100%;
     border: 1px solid black;
 }
 
@@ -69,7 +69,7 @@ for the content bellow that.*/
     flex-wrap: wrap;
     align-items: center;
     justify-self: center;
-    width: 100%;
+    inline-size: 100%;
     justify-content: space-evenly;
     border-right: 2px solid black;
     border-left: 2px solid black;
@@ -81,7 +81,7 @@ for the content bellow that.*/
     flex-direction: row;
     flex-wrap: wrap;
     justify-self: center;
-    width: 100%;
+    inline-size: 100%;
     border-right: 2px solid black;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
@@ -163,28 +163,28 @@ This is where the img and
 other variables are configured
 or initialized.*/
 img.animated {
-    width: 85px;
-    height: 85px;
+    inline-size: 85px;
+    block-size: 85px;
     border-right: 1px solid black;
 }
 
 img.certification {
-    width: 100px;
-    height: 77px;
+    inline-size: 100px;
+    block-size: 77px;
     margin: 3px;
 }
 
 img.project {
-    width: 200px;
-    height: 258px;
+    inline-size: 200px;
+    block-size: 258px;
 }
 
 img.resume {
-    width: 200px;
-    height: 260px;
+    inline-size: 200px;
+    block-size: 260px;
 }
 
 img.linkedin {
-    width: 25px;
-    height: 25px;
+    inline-size: 25px;
+    block-size: 25px;
 }
