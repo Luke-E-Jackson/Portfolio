@@ -101,7 +101,7 @@ navbar goes inside the navbar container. etc.*/
     align-items: center;
 }
 
-.link-container {
+.icon-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
