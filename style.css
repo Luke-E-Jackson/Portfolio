@@ -2,9 +2,12 @@
 The html height and body 
 min-height relate to make 
 the height scale properly 
-on all devices.*/
+on all devices. Also default font-size
+is 16px which is used to calculate rem
+root em.*/
 html {
     height: 100%;
+    font-size: 16px;
 }
 
 body {
