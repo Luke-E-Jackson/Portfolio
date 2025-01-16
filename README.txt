@@ -4,3 +4,7 @@ of this website as of now. I will continue to do small updates and fixes however
 I'm doing on my practice website won't be hosted and I'll use this README to list my accomplishments.
 
 1: made a html + css website from scratch that is the exact same as an example picture. Without seeing any code.
+
+2: 1/16 4:14 AM - I've made it through 26 html and css videos and from that information I made several major arrangement changes
+to my portfolio website. I'm still working on a project file in addition to the website, but I have decided to make changes as
+I notice things that need to be changed with the original portfolio site.
