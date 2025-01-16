@@ -12,8 +12,9 @@ html {
 body {
     background-color: #37323e;
     color: #deb841;
-    font-family: monospace;
+    font-family:'Courier New', Courier, monospace;
     min-height: 100%;
+    font-size: 1.25rem;
 }
 /*Section 2:
 This section defines color
