@@ -43,15 +43,14 @@ the footer. The navbar-
 container is for the links bellow 
 the header. And the container is 
 for the content bellow that.*/
-
-header {
+.header-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-self: center;
     justify-content: space-between;
-    inline-size: 100%; /*inline-size is the logical form of width*/
+    inline-size: 100%;                /*inline-size is the logical form of width*/
     border: 2px solid black;
 }
 
