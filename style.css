@@ -25,6 +25,11 @@ body {
                         a fixed number. I removed it because it messed up
                         my links/icons.*/
 }
+
+.wrapper {
+    max-inline-size: 41rem;
+    margin-inline: auto;
+}
 /*Section 2:
 This section defines color
 and style of common elements*/
