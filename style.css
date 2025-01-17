@@ -40,13 +40,6 @@ img {
     max-inline-size: 100%;
 }
 
-.primary-navigation {
-    display: flex;
-    flex-direction: row;
-    margin: 0px;
-    padding: 0px;
-}
-
 ul {
     list-style: none;
 }
@@ -58,17 +51,6 @@ a:focus-visible {
 a:active {
     color: black;
 }
-
-/*Section 3:
-This section defines
-container classes for divs. The
-Wrapper is for the entire page.
-The head-container is for the 
-header. Foot-container in for
-the footer. The navbar-
-container is for the links bellow 
-the header. And the container is 
-for the content bellow that.*/
 
 header {
     display: flex;
@@ -100,6 +82,8 @@ footer {
         border-right: 1px solid black;
         border-left: 1px solid black;
         border-bottom: 1px solid black;
+        margin: 0px;
+        padding: 0px;
 }
 
 .container {
