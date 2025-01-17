@@ -1,13 +1,5 @@
-/* Section 1:
-The html height and body 
-min-height relate to make 
-the height scale properly 
-on all devices. Also default font-size
-is 16px which is used to calculate rem
-root em.*/
-
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /*makes things easier to work with*/
 }
 html {
     block-size: 100%;   /*block-size is the logical form of height*/
@@ -20,10 +12,6 @@ body {
     font-family: monospace, 'courier new', courier;
     min-block-size: 100%;
     font-size: 1rem;  
-                        /*line-height is like the space between words vertically
-                        I'm using the 1.6 ratio to determine this instead of
-                        a fixed number. I removed it because it messed up
-                        my links/icons.*/
 }
 
 .wrapper {
@@ -33,8 +21,7 @@ body {
     background-color: #14213D;
 }
 /*Section 2:
-This section defines color
-and style of common elements*/
+This section defines the style of common elements*/
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
