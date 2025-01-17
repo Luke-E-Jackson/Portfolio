@@ -189,7 +189,7 @@ navbar goes inside the navbar container. etc.*/
 .text-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     margin: 3px;
