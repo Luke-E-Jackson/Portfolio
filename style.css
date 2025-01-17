@@ -21,6 +21,12 @@ body {
     background-color: #14213D;
 }
 
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3px;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -38,9 +44,10 @@ img {
     max-inline-size: 100%;
 }
 
-ul {
+li.nav {
     list-style: none;
 }
+
 a:hover, 
 a:focus-visible {
     color: #c87b00
@@ -129,17 +136,9 @@ footer {
     margin-right: 15px;
 }
 
-.text-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 3px;
-}
-
 .home-h2 {
-    padding-inline: 1rem;
+    margin: 0px;
+    text-align: center;
 }
 
 img.animated {
