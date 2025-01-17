@@ -23,8 +23,11 @@ body {
 
 .two-column-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     margin: 3px;
+
+    @media (width > 525px) {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 h1 {
@@ -173,3 +176,9 @@ img.icon-din {
     block-size: 25px;
 }
 
+img.luke {
+    justify-self: center;
+    @media (width > 525px) {
+        justify-self: self-start;
+    }
+}
