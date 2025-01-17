@@ -52,6 +52,16 @@ img {
     max-inline-size: 100%;
 }
 
+.primary-navigation {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
 a:hover, 
 a:focus-visible {
     color: #c87b00
@@ -91,17 +101,17 @@ footer {
     border: 1px solid black;
 }
 
-.navbar-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-self: center;
-    inline-size: 100%;
-    justify-content: space-evenly;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
-    border-bottom: 3px solid black;
+.primary-navigation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-self: center;
+        inline-size: 100%;
+        justify-content: space-evenly;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        border-bottom: 3px solid black;
 }
 
 .container {
