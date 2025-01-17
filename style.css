@@ -91,7 +91,7 @@ header {
     justify-self: center;
     justify-content: space-between;
     inline-size: 100%; /*inline-size is the logical form of width*/
-    border: 2px solid black;
+    border: 1px solid black;
 }
 footer {
     display: flex;
@@ -110,9 +110,9 @@ footer {
         justify-self: center;
         inline-size: 100%;
         justify-content: space-evenly;
-        border-right: 2px solid black;
-        border-left: 2px solid black;
-        border-bottom: 3px solid black;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
 }
 
 .container {
@@ -123,9 +123,9 @@ footer {
     flex-wrap: wrap;
     justify-self: center;
     inline-size: 100%;
-    border-right: 3px solid black;
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
 }
 /*Section 4:
 This section defines containers
