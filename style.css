@@ -189,9 +189,14 @@ navbar goes inside the navbar container. etc.*/
 .text-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     margin: 3px;
+}
+
+.home-h2 {
+
 }
 /*Section 5:
 This is where the img and
