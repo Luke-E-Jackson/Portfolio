@@ -177,6 +177,8 @@ img.icon-din {
 }
 
 img.luke {
+    width: 240px;
+    height: 240px;
     justify-self: center;
     @media (width > 525px) {
         justify-self: self-start;
