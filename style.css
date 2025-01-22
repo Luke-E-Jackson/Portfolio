@@ -120,6 +120,7 @@ footer {
     color: #000000;
     flex-wrap: wrap;
     justify-self: center;
+    justify-content: center;
     inline-size: 100%;
     border-right: 1px solid black;
     border-left: 1px solid black;
