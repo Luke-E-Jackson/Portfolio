@@ -107,10 +107,8 @@ footer {
     border-bottom: 1px solid black;
 }
 
-.horizontal-container {
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
+.align {
+    text-align: center;
 }
 
 .vertical-container {
@@ -120,7 +118,6 @@ footer {
     color: #000000;
     flex-wrap: wrap;
     justify-self: center;
-    text-align: center;
     inline-size: 100%;
     border-right: 1px solid black;
     border-left: 1px solid black;
