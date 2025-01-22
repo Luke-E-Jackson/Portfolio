@@ -110,12 +110,20 @@ footer {
 .horizontal-container {
     display: flex;
     flex-direction: row;
-    text-align: center;
+    justify-items: center;
 }
 
 .vertical-container {
     display: flex;
     flex-direction: column;
+    background-color: #E5E5E5;
+    color: #000000;
+    flex-wrap: wrap;
+    justify-self: center;
+    inline-size: 100%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .icon-container {
