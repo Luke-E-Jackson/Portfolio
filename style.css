@@ -94,7 +94,7 @@ footer {
         padding: 0px;
 }
 
-.container {
+.main-container {
     background-color: #E5E5E5;
     color: #000000;
     display: flex;
@@ -105,6 +105,12 @@ footer {
     border-right: 1px solid black;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 .vertical-container {
