@@ -107,6 +107,11 @@ footer {
     border-bottom: 1px solid black;
 }
 
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .icon-container {
     display: flex;
     flex-direction: row;
