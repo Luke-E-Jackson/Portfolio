@@ -26,6 +26,8 @@ body {
     min-inline-size: 18rem;
     margin-inline: auto;
     background-color: white;
+    border-color: black;
+    border-width: 1px;
 }
 
 .two-column-layout {
