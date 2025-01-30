@@ -21,6 +21,13 @@ body {
     background-color: #14213D;
 }
 
+.textwrapper {
+    max-inline-size: 36rem;
+    min-inline-size: 18rem;
+    margin-inline: auto;
+    background-color: white;
+}
+
 .two-column-layout {
     display: grid;
     margin: 3px;
