@@ -22,7 +22,7 @@ body {
 }
 
 .textwrapper {
-    max-inline-size: 36rem;
+    max-inline-size: 30rem;
     min-inline-size: 18rem;
     margin-inline: auto;
     background-color: white;
