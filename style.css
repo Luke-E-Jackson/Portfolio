@@ -25,9 +25,7 @@ body {
     max-inline-size: 26rem;
     min-inline-size: 20rem;
     margin-inline: auto;
-    background-color: #f4f2ee;
-    border-color: black;
-    border-width: 1px;
+    border: 1px black;
 }
 
 .two-column-layout {
