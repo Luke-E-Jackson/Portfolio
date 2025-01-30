@@ -22,8 +22,8 @@ body {
 }
 
 .textwrapper {
-    max-inline-size: 20rem;
-    min-inline-size: 18rem;
+    max-inline-size: 26rem;
+    min-inline-size: 20rem;
     margin-inline: auto;
     background-color: #f4f2ee;
     border-color: black;
