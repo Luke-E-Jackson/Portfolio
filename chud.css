@@ -210,3 +210,11 @@ img.luke {
         justify-self: self-start;
     }
 }
+img.IDIDTHAT {
+    width: 213px;
+    height: 240px;
+    justify-self: end;
+    @media (width > 525px) {
+            justify-self: center;
+        {
+    }
