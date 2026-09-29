@@ -29,8 +29,9 @@ body {
 
 .two-column-layout {
     display: grid;
+    inline-size: 100%; /* Forces the grid container to expand to the full width of .container */
     margin: 3px;
-    width: 100%;
+
     @media (width > 525px) {
         grid-template-columns: 1fr 1fr;
     }
