@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box; /*makes things easier to work with*/
 }
-html {
-    block-size: 100%;   /*block-size is the logical form of height*/
-}
 
+html {
+    block-size: 100%; /*block-size is the logical form of height*/
+}
 
 body {
     background-color: #FFFFFF;
@@ -50,20 +50,10 @@ img.luke {
 /* Right Image (Pointing Figure) */
 img.IDIDTHAT {
     max-width: 213px;
-    justify-self: end;
-    margin-right: 18%; /* Pulls the pointing finger left to line up under "Gallery" */
-}
-
-img.IDIDTHAT {
-    max-width: 213px;
     height: auto;
     justify-self: end;
-    
-    /* Desktop-only adjustment */
-    @media (min-width: 526px) {
-        margin-right: 85px !important; 
-    }
 }
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -72,9 +62,10 @@ h1 {
 }
 
 p {
-    size: 2rem;
+    font-size: 2rem;
 }
-a  {
+
+a {
     color: inherit;
     text-decoration: none;
 }
@@ -90,7 +81,7 @@ li.nav {
 
 a:hover, 
 a:focus-visible {
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 a:active {
@@ -107,6 +98,7 @@ header {
     inline-size: 100%; /*inline-size is the logical form of width*/
     border: 1px solid black;
 }
+
 footer {
     display: flex;
     flex-direction: row;
@@ -117,18 +109,18 @@ footer {
 }
 
 .primary-navigation {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-self: center;
-        inline-size: 100%;
-        justify-content: space-evenly;
-        border-right: 1px solid black;
-        border-left: 1px solid black;
-        border-bottom: 1px solid black;
-        margin: 0px;
-        padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-self: center;
+    inline-size: 100%;
+    justify-content: space-evenly;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0px;
+    padding: 0px;
 }
 
 .container {
@@ -228,4 +220,11 @@ img.icon-git {
 img.icon-din {
     inline-size: 25px;
     block-size: 25px;
+}
+
+/* DESKTOP MEDIA QUERY (Outside of selector) */
+@media screen and (min-width: 526px) {
+    img.IDIDTHAT {
+        margin-right: 70px; /* Adjust this px value up/down to fine-tune the finger under Gallery */
+    }
 }
