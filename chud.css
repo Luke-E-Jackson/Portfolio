@@ -22,8 +22,7 @@ body {
 }
 
 .textwrapper {
-    max-inline-size: 26rem;
-    min-inline-size: 20rem;
+    inline-size: 100%; /* Allows content to stretch edge-to-edge inside .wrapper */
     margin-inline: auto;
 }
 
@@ -111,7 +110,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-self: center;
-    inline-size: 100%;
+    inline-size: 100%; /* Ensures the container fills the black wrapper fully */
     border-right: 1px solid black;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
