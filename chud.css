@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box; /* Makes layout calculations consistent */
+    box-sizing: border-box;
 }
 
 html {
@@ -16,17 +16,11 @@ body {
 
 .wrapper {
     max-inline-size: 41rem;
-    inline-size: 100%; /* Fully responsive on mobile screens */
+    inline-size: 100%;
     margin-inline: auto;
     background-color: #000000;
 }
 
-.textwrapper {
-    inline-size: 100%;
-    margin-inline: auto;
-}
-
-/* Two Column Layout */
 .two-column-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -40,13 +34,11 @@ body {
     display: block;
 }
 
-/* Left Image (Guitarist) */
 img.luke {
     max-width: 240px;
     justify-self: start;
 }
 
-/* Right Image (Pointing Figure) */
 img.IDIDTHAT {
     max-width: 213px;
     height: auto;
@@ -68,11 +60,6 @@ p {
 a {
     color: inherit;
     text-decoration: none;
-}
-
-img {
-    display: block;
-    max-inline-size: 100%;
 }
 
 li.nav {
@@ -106,7 +93,7 @@ footer {
     justify-content: space-between;
     inline-size: 100%;
     border: 1px solid black;
-    padding: 8px;
+    padding: 6px 10px;
 }
 
 .primary-navigation {
@@ -138,27 +125,38 @@ footer {
 }
 
 .footer-text {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
 }
 
 .footer-links {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    font-size: 0.65rem;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.6rem;
+    gap: 10px;
 }
 
-.links {
-    margin-left: 10px;
-}
-
-/* DESKTOP-ONLY ADJUSTMENTS */
+/* -------------------------------------------------------------
+   DESKTOP ONLY - SHIFTS FINGER UNDER 'r' / 'y' OF GALLERY
+   ------------------------------------------------------------- */
 @media screen and (min-width: 526px) {
     img.IDIDTHAT {
-        margin-right: 105px; /* Moves finger directly under 'r'/'y' of Gallery */
-    }
-    
-    .footer-links {
-        flex-direction: row;
+        margin-right: 120px;
     }
 }
+
+Step 2: How to Update Your Old Links to New Links
+
+To change link destinations in chud.html, locate the <a> tags in your HTML and edit their href="" attributes:
+Navigation Links (Header)
+
+Currently, your navigation links point to index, projects, and contact:
+HTML
+
+<nav aria-label="Primary Navigation">
+    <ul class="primary-navigation">
+        <li class="nav"><a href="music.html">Music</a></li>
+        <li class="nav"><a href="gallery.html">Gallery</a></li>
+        <li class="nav"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
