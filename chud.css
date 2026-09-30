@@ -26,26 +26,32 @@ body {
     margin-inline: auto;
 }
 
+/* Two Column Layout */
 .two-column-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
     inline-size: 100%;
-    align-items: end; /* Keeps both images aligned at the bottom */
+    align-items: end; /* Keeps image baselines aligned at the bottom */
 }
 
+/* Responsive Image Scaling */
 .two-column-layout img {
     max-inline-size: 100%;
-    block-size: auto;
+    height: auto;
+    display: block;
 }
 
-/* Left image (guitarist) */
-.two-column-layout img:first-child {
+/* Left Image (Guitarist) */
+img.luke {
+    max-width: 240px;
     justify-self: start;
 }
 
-/* Right image (pointing figure) */
-.two-column-layout img:last-child {
-    justify-self: center; /* Positions the finger under "Gallery" */
+/* Right Image (Pointing Figure) */
+img.IDIDTHAT {
+    max-width: 213px;
+    justify-self: end;
+    margin-right: 18%; /* Pulls the pointing finger left to line up under "Gallery" */
 }
 
 h1 {
