@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luke Jackson - Music</title>
+    <link href="music.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="banner">
+                <h1>Luke Jackson</h1>
+            </div>
+        </header>
 
+        <nav aria-label="Primary Navigation">
+            <ul class="primary-navigation">
+                <li class="nav"><a href="music.html">Music</a></li>
+                <li class="nav"><a href="gallery.html">Gallery</a></li>
+                <li class="nav"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="music-container">
+                <!-- Search & Track Selector -->
+                <div class="sidebar">
+                    <input type="text" id="search" placeholder="Search tracks..." onkeyup="filterTracks()">
+                    <ul id="track-list" class="track-list">
+                        <li class="track-item" onclick="playTrack('audio/track1.mp3', 'Track Title 1')">Track Title 1</li>
+                        <li class="track-item" onclick="playTrack('audio/track2.mp3', 'Track Title 2')">Track Title 2</li>
+                    </ul>
+                </div>
+
+                <!-- Main Player View -->
+                <div class="player-section">
+                    <h2 id="now-playing">Select a Track</h2>
+                    <audio id="audio-player" controls>
+                        <source src="" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-text">
+                <p>Copyright © 2025 Luke Jackson all rights reserved</p>
+            </div>
+            <div class="footer-links">
+                <a class="links" href="https://github.com/Luke-E-Jackson" target="_blank">github.com/Luke-E-Jackson</a>
+                <a class="links" href="https://linkedin.com/in/lej03/" target="_blank">linkedin.com/in/lej03/</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function playTrack(src, title) {
+            const player = document.getElementById('audio-player');
+            const nowPlaying = document.getElementById('now-playing');
+            player.src = src;
+            nowPlaying.innerText = title;
+            player.play();
+        }
+
+        function filterTracks() {
+            const query = document.getElementById('search').value.toLowerCase();
+            const tracks = document.querySelectorAll('.track-item');
+            tracks.forEach(track => {
+                const text = track.innerText.toLowerCase();
+                track.style.display = text.includes(query) ? 'block' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>
