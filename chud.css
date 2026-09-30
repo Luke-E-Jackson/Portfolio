@@ -28,12 +28,24 @@ body {
 
 .two-column-layout {
     display: grid;
-    inline-size: 100%; /* Forces the grid container to expand to the full width of .container */
-    margin: 3px;
+    grid-template-columns: 1fr 1fr;
+    inline-size: 100%;
+    align-items: end; /* Keeps both images aligned at the bottom */
+}
 
-    @media (width > 525px) {
-        grid-template-columns: 1fr 1fr;
-    }
+.two-column-layout img {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+/* Left image (guitarist) */
+.two-column-layout img:first-child {
+    justify-self: start;
+}
+
+/* Right image (pointing figure) */
+.two-column-layout img:last-child {
+    justify-self: center; /* Positions the finger under "Gallery" */
 }
 
 h1 {
