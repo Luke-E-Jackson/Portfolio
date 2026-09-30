@@ -139,7 +139,7 @@ footer {
 /* -------------------------------------------------------------
    DESKTOP ONLY - SHIFTS FINGER UNDER 'r' / 'y' OF GALLERY
    ------------------------------------------------------------- */
-@media screen and (min-width: 526px) {
+@media screen and (min-width: 600px) {
     img.IDIDTHAT {
         margin-right: 120px;
     }
