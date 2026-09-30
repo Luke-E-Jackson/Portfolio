@@ -219,17 +219,3 @@ img.icon-din {
     inline-size: 25px;
     block-size: 25px;
 }
-
-img.luke {
-    width: 240px;
-    height: 240px;
-    justify-self: center;
-    @media (width > 525px) {
-        justify-self: self-start;
-    }
-}
-img.IDIDTHAT {
-    width: 213px;
-    height: 240px;
-    justify-self: end;
-    }
